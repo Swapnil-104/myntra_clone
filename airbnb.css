@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.search-outer svg{
+    width: 16px;
+}
+.search-text{
+    flex-grow: 1;
+}
+.search-outer{
+    border: 1px solid red;
+    height: 4rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 7px 0px;
+    display: flex;
+    align-items: center;
+}
+#filterKnobCircle{
+    transition: all 2s;
+}
+#filterKnobCircle:hover{
+    transform: translate(-6px);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
